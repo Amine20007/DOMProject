@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item .title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.item .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.item .quantity-btn {
+    padding: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.item .delete {
+    color: red;
+    cursor: pointer;
+}
+
+.item .heart {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.item .price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#totalPrice {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.heart-liked {
+    color: red;
+}
